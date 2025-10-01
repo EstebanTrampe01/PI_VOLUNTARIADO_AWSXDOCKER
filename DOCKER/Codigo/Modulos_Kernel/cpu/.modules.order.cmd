@@ -1,0 +1,1 @@
+savedcmd_/home/emilio/Escritorio/Github/SO1_202200314/Proyecto1_Fase1/Modulos_Kernel/cpu/modules.order := {   echo /home/emilio/Escritorio/Github/SO1_202200314/Proyecto1_Fase1/Modulos_Kernel/cpu/cpu_202200314.o; :; } > /home/emilio/Escritorio/Github/SO1_202200314/Proyecto1_Fase1/Modulos_Kernel/cpu/modules.order

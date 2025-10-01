@@ -1,0 +1,38 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "Linux",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "c17",
+      "cppStandard": "gnu++17",
+      "intelliSenseMode": "linux-gcc-x64",
+      "defines": [
+        "__KERNEL__",
+        "MODULE"
+      ],
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/usr/src/linux-headers-6.11.0-26-generic/include",
+        "/usr/src/linux-headers-6.11.0-26-generic/include/uapi",
+        "/usr/src/linux-headers-6.11.0-26-generic/arch/x86/include",
+        "/usr/src/linux-headers-6.11.0-26-generic/arch/x86/include/generated",
+        "/usr/src/linux-headers-6.11.0-26-generic/arch/x86/include/uapi",
+        "/lib/modules/6.11.0-26-generic/build/include",
+        "/lib/modules/6.11.0-26-generic/build/include/linux",
+        "/lib/modules/6.11.0-26-generic/build/include/uapi/linux"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}",
+          "/usr/src/linux-headers-6.11.0-26-generic/include",
+          "/usr/src/linux-headers-6.11.0-26-generic/arch/x86/include",
+          "/lib/modules/6.11.0-26-generic/build/include"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": ""
+      }
+    }
+  ]
+}
+
